@@ -1,8 +1,11 @@
 public class Hello {
     public static void main(String[] args) {
 
-        for (int i=1;i<=10;i++) {
-            System.out.println("Hello Sebastian ..."+i);
+        String[] text = "Goodbye Java! Good";
+
+        while (text.length)
+            System.out.println(text);
+            text = text.substring(0, text.length() - 1);
         }
     }
 }
